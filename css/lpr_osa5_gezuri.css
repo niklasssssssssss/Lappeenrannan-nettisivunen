@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    background-image: url(../img/lappeenrantasatama.jpg);
+    background-repeat: no-repeat;
+    height: 170px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #179a00;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+p {
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.hero {
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {          /**CSS2:ssa käyttöön otettu @media-sääntö mahdollisti erilaisten tyylisääntöjen määrittämisen eri mediatyypeille.**/
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #179a00;
+    color:aliceblue;
+    padding: 10px 20px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
